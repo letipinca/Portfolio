@@ -434,6 +434,14 @@ body.intro-played .home__sectors {
 .detail__imgfloat-cap { font-family: var(--serif); font-style: italic; font-size: 11px; color: var(--muted); margin-top: 6px; }
 .detail__clear { clear: both; }
 
+/* On wide viewports, pull the float images out into the margin whitespace
+   beside the 860px text column instead of wrapping the text around them. */
+@media (min-width: 1300px) {
+  .detail__imgfloat { width: 150px; }
+  .detail__imgfloat--left { margin-left: -180px; margin-right: 0; }
+  .detail__imgfloat--right { margin-right: -180px; margin-left: 0; }
+}
+
 /* ---------- About (rebuilt) ---------- */
 .about2 { }
 .about2__h {
