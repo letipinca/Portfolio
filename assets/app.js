@@ -110,6 +110,17 @@
     c.addEventListener("mouseleave", function () { state.hoverCard = -1; renderWork(); });
   });
 
+  /* ---------- Editorial Column dropdown (banner 02) ---------- */
+  Array.prototype.slice.call(document.querySelectorAll("[data-toggle]")).forEach(function (toggle) {
+    var dropdown = document.querySelector('[data-dropdown="' + toggle.dataset.toggle + '"]');
+    if (!dropdown) return;
+    toggle.addEventListener("click", function () {
+      var willOpen = dropdown.hidden;
+      dropdown.hidden = !willOpen;
+      toggle.classList.toggle("is-open", willOpen);
+    });
+  });
+
   /* ---------- Fill accordion rows with keywords / brands ---------- */
   var detailRows = Array.prototype.slice.call(document.querySelectorAll("[data-detail]"));
   detailRows.forEach(function (row) {
@@ -169,6 +180,26 @@
           g.appendChild(i);
         });
         dBody.appendChild(g);
+      } else if (block.floats != null) {
+        block.floats.forEach(function (f) {
+          var fd = document.createElement("div");
+          fd.className = "detail__imgfloat detail__imgfloat--" + (f.side || "left");
+          var fi = document.createElement("img");
+          fi.src = f.src;
+          fi.alt = f.alt || "";
+          fd.appendChild(fi);
+          if (f.caption) {
+            var fc = document.createElement("div");
+            fc.className = "detail__imgfloat-cap";
+            fc.textContent = f.caption;
+            fd.appendChild(fc);
+          }
+          dBody.appendChild(fd);
+        });
+      } else if (block.clear) {
+        var clr = document.createElement("div");
+        clr.className = "detail__clear";
+        dBody.appendChild(clr);
       } else if (block.v != null) {
         var wrap = document.createElement("div");
         wrap.className = "detail__visual" + (block.v.narrow ? " detail__visual--doc" : "");

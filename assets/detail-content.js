@@ -192,5 +192,80 @@ window.DETAIL_CONTENT = {
       { html: '<p class="detail__cta"><em>Read the full audit &rarr; <a href="files/social-content-audit-presentation-undresscode.pdf" target="_blank" rel="noopener">Open the presentation</a></em></p>' },
       { html: '<p class="detail__cta"><em>Full written report &rarr; <a href="files/social-content-audit-undresscode.pdf" target="_blank" rel="noopener">Open the PDF</a></em></p>' }
     ]
+  },
+
+  trustgap: {
+    banner: "Editorial Intelligence & Brand Narrative",
+    title: "THE TRUST GAP",
+    subtitle: "Why the Creator Economy’s Biggest Problem is also its Biggest Opportunity",
+    descriptor: "Creator economy — Influencer marketing — Brand strategy — 2026",
+    pdfs: [],
+    keywords: [
+      "Creator economy analysis",
+      "Influencer partnership strategy",
+      "Audience trust & engagement metrics",
+      "Editorial column",
+      "Brand-creator brief development"
+    ],
+    brands: [],
+    blocks: [
+      { html: '<p><em>Open Instagram. You already know what is coming.</em></p>' },
+      { p: "Before the first post loads, before the algorithm has decided what version of the feed to show you today, you have already activated a filter. You are ready to scroll past the sponsored content, the affiliate links, the product placed casually on a kitchen counter that nobody actually uses. You are not passive. You are defended." },
+      { p: "This is the fundamental tension that defines the creator economy in 2026: an audience that is more sophisticated, more sceptical, and more resistant than ever; and a commercial model that still largely operates as if none of that is true." },
+      { p: "The brands and agencies that figure out how to close that gap will not just perform better on their next campaign. They will be building the infrastructure of the next decade of digital commerce." },
+
+      { h: "The metric that actually tells you something" },
+      { p: "Most conversations about creator performance begin and end with follower count. Occasionally, reach. More rarely, engagement rate: a number that has become so inflated and so easy to game that it has largely lost its diagnostic value." },
+      { p: "The metric that actually tells you whether a creator has built something real is comments. Not because comments are inherently more meaningful than other forms of interaction, but because they require a decision. A like is a reflex. A save is private and invisible. A comment is public, deliberate, and effortful. Nobody comments on a piece of content they do not care about. The scroll is too easy, and the alternative is doing nothing." },
+      { p: "A comment is a viewer deciding, in the middle of a passive consumption session, to stop and say something out loud. That is an extraordinary thing to make someone do." },
+      { p: "Saves come second, and they measure something complementary: private intent. When someone saves a post, they are telling themselves — not the creator, not the algorithm, only themselves — that this content has enough value to return to. You do not save something you will not want again. The save is the quietest signal and, in many ways, the most honest one." },
+      { p: "These two metrics together describe an audience that is genuinely present. Everything else is noise." },
+
+      { h: "The creators who have already solved the problem" },
+      { p: "Some creators have already built the kind of trust that makes commercial content feel like a natural continuation of their narrative rather than an interruption of it." },
+
+      { floats: [ { src: "img/IMG_9320.jpeg", alt: "@eugbrandstrat", side: "left", caption: "@eugbrandstrat" } ] },
+      { html: '<p><strong>@eugbrandstrat</strong> on TikTok is one of the clearest examples of a creator whose format has become genuinely distinctive. His content — strategic and societal analysis, delivered with market evidence rather than opinion alone — follows a structure his audience has learned to expect and seeks out specifically. He is not posting into a generalised feed. He is producing a recurring column that his viewers return to deliberately. The commercial implication is significant: a brand in finance, technology, or education that partners with him is not borrowing his audience. It is accessing an audience that has already been trained to receive complex ideas with openness and critical engagement. That is a rare and undervalued media asset.</p>' },
+      { clear: true },
+
+      { floats: [ { src: "img/IMG_9324.jpeg", alt: "@juliatrevino", side: "right", caption: "@juliatrevino" } ] },
+      { html: '<p><strong>@juliatrevino</strong> on Instagram and TikTok operates in a different register but solves the same problem from a different angle. Her appeal is not spectacle. It is the radical ordinariness of her daily life: study sessions, training, work, documented without the performance of aspiration that makes so much creator content feel alienating. She is productive and put-together, but effortlessly so, and the effortlessness is the point. Her audience follows her not to be impressed but to feel accompanied. That quality of relationship is extraordinarily valuable to brands that need trust transferred, not attention borrowed.</p>' },
+      { clear: true },
+
+      { floats: [
+        { src: "img/IMG_9323.jpeg", alt: "@ngc1961", side: "left", caption: "@ngc1961" },
+        { src: "img/IMG_9325.jpeg", alt: "@ngc1961", side: "right", caption: "@ngc1961" }
+      ] },
+      { html: '<p><strong>@ngc1961</strong> on Instagram represents a third model entirely. Her content is brutalist, industrial, almost entirely visual; images so specific and so consistently curated that they are immediately identifiable without a caption, without a tag, without any verbal explanation. She has built a recognisable aesthetic world entirely on the quality of her eye. For brands whose visual identity is their primary asset, a creator like this does not promote a product. She contextualises it, which is a fundamentally different and more powerful commercial gesture.</p>' },
+      { clear: true },
+
+      { h: "When the narrative collapses" },
+      { p: "Understanding why certain creators succeed makes it easier to understand why others fail — and the failure mode is almost always the same." },
+      { html: '<p><strong>@millane</strong> on TikTok is a useful case study, not because her values are wrong, they are hers to hold, but because of what happens when the way personal convictions are framed starts to create distance rather than connection. Her recent content, centred heavily on personal choices presented in ways that portions of her audience have read as implying moral hierarchy, has generated a visible shift in how her community responds to her. The comments section has changed. The temperature of the conversation has, too. This is not about right or wrong. It is about the mechanics of parasocial trust: the moment an audience begins to feel that a creator’s content is primarily in service of the creator’s self-image rather than offering something the viewer can take from it, the relationship changes. And for brands, that shift is a material risk: the audience they negotiated to access is no longer the same audience they are now reaching.</p>' },
+      { p: "This is not a judgment on her convictions. It is an observation about the mechanics of trust. When an audience begins to sense that a creator's content is primarily about the creator's self-image rather than about something the viewer can take from it, the relationship shifts from parasocial warmth to managed distance. And for brands, that shift is a material risk. The audience a brand is paying to access is no longer the same audience it began the negotiation with." },
+
+      { h: "The brief is the real problem" },
+      { p: "Most creator partnerships fail before they begin. Not because the creator lacks talent, not because the audience is wrong, but because the brief treats the creator as a delivery mechanism rather than as a narrative system." },
+      { p: "A brand that arrives with a fixed script is asking a creator to be a face. A creator's commercial value is not their face. It is their voice, their aesthetic, their relationship with an audience that has chosen to trust them specifically. Ask them to abandon that, to read a script that does not sound like them, to post content that their audience will immediately recognise as foreign, and you have not bought access to their community. You have demonstrated to that community that you do not understand their creator. Which is, functionally, a signal that you do not understand them." },
+      { floats: [ { src: "img/IMG_9302.jpeg", alt: "@richelle_zh", side: "left", caption: "@richelle_zh" } ] },
+      { html: '<p><strong>@richelle_zh</strong> on TikTok has built one of the most commercially effective creator formats precisely because it refuses to feel like commerce. Her content functions as a visual search engine: she tries on clothes for virtually every occasion and event (workdays, weddings, casual Saturdays, formal evenings) so that her audience does not have to. The comparison work is already done. Fit, colourway, sizing across brands and price points: she has done the research, filed it visually, and made it instantly retrievable. She works with multiple brands simultaneously, which counterintuitively reinforces her credibility: when no single partnership is obviously the point, every recommendation reads as genuine. The friction for the consumer is minimal: links are always available, the visual comparison is always thorough, and the result is that her audience is actively chasing the products rather than passively receiving them.</p>' },
+      { clear: true },
+      { html: '<p><em>That distinction, chasing versus receiving, is everything.</em></p>' },
+
+      { h: "The fashion commentary cohort and what it signals" },
+      { p: "There is a niche of creators who are building something that does not yet have a clear commercial template, but should: the fashion commentator as editorial voice." },
+      { floats: [ { src: "img/IMG_9304.jpeg", alt: "@veronafarrell_", side: "right", caption: "@veronafarrell_" } ] },
+      { html: '<p><strong>@veronafarrell_</strong> on TikTok is the clearest example, our real-life Carrie Bradshaw, for those of us who grew up wanting that column and that life. She writes for Vogue Scandinavia and films the process, sharing trend takes and opinions alongside the ordinary mechanics of her day. What makes her stand out is not the access, though the access is real, but the register: classy and easygoing, always with a touch of humour, never performative. She is a comfort creator inside a fashion commentary niche, which is a rarer combination than it sounds. Her audience comes not to be told what to buy, but to think alongside someone with a formed point of view and genuine industry proximity, which is exactly the quality that Carrie Bradshaw’s readers were always looking for in the column, before they looked for it in a TikTok.</p>' },
+      { clear: true },
+      { p: "The commercial opportunity for brands here is not a sponsored post. It is an editorial collaboration: a creator like this does not need to mention a product. She needs to be in the world where the product lives, and let her audience draw their own conclusions. That is the direction in which the most sophisticated brand partnerships are moving, and it is not yet mainstream enough to be a cliché." },
+
+      { h: "The gap — and the opportunity" },
+      { p: "The creator economy has a trust problem. Audiences are more defended than they have ever been. The default assumption, when encountering content that is visibly commercial, is scepticism; and scepticism is extremely difficult to overcome once it has been activated." },
+      { p: "But the trust problem is also a positioning opportunity. The brands and agencies that build systematic methods for translating creator authenticity into commercially effective briefs — not leaving each collaboration to intuition, not arriving with scripts, not confusing reach with relationship — will have a structural advantage over those that do not." },
+      { p: "The brief needs to start with the creator's narrative, not the brand's product. The deliverable needs to feel like something the creator would have made anyway, with the product present rather than featured. And the measure of success needs to include comment quality and save rate alongside reach, because an audience that talks back and saves for later is the only audience worth paying for." },
+      { p: "The trust gap is real. So is the distance between brands that understand it and brands that do not." },
+      { html: '<p><em>That distance is where the next decade of the creator economy will be decided.</em></p>' },
+      { html: '<p><em>Letizia Pinca is a brand intelligence analyst and content strategist specialising in premium fashion and lifestyle brands.</em></p>' }
+    ]
   }
 };

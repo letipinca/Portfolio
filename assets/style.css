@@ -149,7 +149,7 @@ img { max-width: 100%; display: block; }
 .home__title em { font-style: italic; color: var(--accent); }
 .home__lead {
   font-size: 13px; font-weight: 300; line-height: 1.8; color: #555;
-  max-width: 460px; margin: 0 0 34px; opacity: 0; animation: fadeUp .6s ease 3.35s forwards;
+  max-width: 520px; margin: 0 0 34px; opacity: 0; animation: fadeUp .6s ease 3.35s forwards;
 }
 .home__lead b { color: var(--ink); font-weight: 500; }
 .home__cta {
@@ -238,6 +238,15 @@ body.intro-played .home__sectors {
 .row--link:hover .row__title { color: var(--ink); font-weight: 500; }
 .row--link:hover .row__desc { color: #6a6a6a; }
 .row__meta { font-size: 10px; color: var(--muted); white-space: nowrap; padding-top: 3px; }
+.row__byline { font-family: var(--serif); font-style: italic; font-size: 12px; color: var(--muted); margin-top: 2px; }
+
+/* Editorial Column dropdown toggle (banner 02) */
+.row--toggle { cursor: pointer; border-radius: 6px; transition: background .2s ease; padding-left: 16px; padding-right: 16px; margin-left: -16px; margin-right: -16px; align-items: center; }
+.row--toggle:hover { background: rgba(26,26,26,.055); }
+.row__caret { font-size: 12px; color: var(--muted); transition: transform .2s ease; padding-top: 3px; }
+.row--toggle.is-open .row__caret { transform: rotate(180deg); }
+.editorial-dropdown { padding: 2px 16px 4px; margin-left: -16px; margin-right: -16px; }
+.editorial-dropdown .row:last-child { border-bottom: none; }
 
 /* Keyword list + mentioned brands (shared by accordion rows and detail facts) */
 .row__kw { margin-top: 9px; }
@@ -418,6 +427,12 @@ body.intro-played .home__sectors {
   color: var(--ink); border-left: 2px solid var(--accent); padding-left: 20px; margin: 28px 0;
 }
 .detail__body p.detail__pull { font-size: 14px; }
+.detail__imgfloat { width: 200px; margin-bottom: 16px; }
+.detail__imgfloat--left { float: left; margin-right: 24px; }
+.detail__imgfloat--right { float: right; margin-left: 24px; }
+.detail__imgfloat img { width: 100%; display: block; border: 1px solid var(--ink); }
+.detail__imgfloat-cap { font-family: var(--serif); font-style: italic; font-size: 11px; color: var(--muted); margin-top: 6px; }
+.detail__clear { clear: both; }
 
 /* ---------- About (rebuilt) ---------- */
 .about2 { }
@@ -488,6 +503,7 @@ body.intro-played .home__sectors {
   .about2__img--tall { aspect-ratio: 16 / 9; }
   .about2__img--side { aspect-ratio: 16 / 9; }
   .detail__gallery { grid-template-columns: 1fr 1fr; }
+  .detail__imgfloat { float: none; width: 100%; margin: 0 0 16px; }
   .section--about { padding: 40px 22px; }
   .detail { padding: 24px 22px 70px; }
   .detail__pdfs { margin-left: 0; }
